@@ -5,6 +5,7 @@ object frmMain: TfrmMain
   ClientHeight = 470
   ClientWidth = 655
   Color = clBtnFace
+  DoubleBuffered = True
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
@@ -13,6 +14,7 @@ object frmMain: TfrmMain
   Menu = mmMain
   OldCreateOrder = False
   Position = poDesktopCenter
+  OnCloseQuery = FormCloseQuery
   OnCreate = FormCreate
   PixelsPerInch = 96
   TextHeight = 13
@@ -20,7 +22,7 @@ object frmMain: TfrmMain
     Left = 0
     Top = 0
     Width = 655
-    Height = 470
+    Height = 451
     Align = alClient
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
@@ -33,48 +35,82 @@ object frmMain: TfrmMain
     ParentFont = False
     ScrollBars = ssBoth
     TabOrder = 0
+    OnChange = mmo1Change
+    OnKeyDown = mmo1KeyDown
+    ExplicitHeight = 470
+  end
+  object statMain: TStatusBar
+    Left = 0
+    Top = 451
+    Width = 655
+    Height = 19
+    Panels = <
+      item
+        Width = 500
+      end
+      item
+        Alignment = taCenter
+        Text = 'CommandNotFound'
+        Width = 50
+      end>
+    ExplicitLeft = 336
+    ExplicitTop = 256
+    ExplicitWidth = 0
   end
   object dlgOpen1: TOpenDialog
-    Left = 48
-    Top = 96
+    Left = 160
+    Top = 104
   end
   object dlgSave1: TSaveDialog
-    Left = 48
-    Top = 152
+    Left = 288
+    Top = 104
   end
   object mmMain: TMainMenu
-    Left = 104
-    Top = 96
-    object F1: TMenuItem
+    Left = 224
+    Top = 104
+    object menuFile: TMenuItem
       Caption = #25991#20214'(&F)'
-      object N1: TMenuItem
+      object menuNew: TMenuItem
         Caption = #26032#24314'(&N)'
-        OnClick = N1Click
+        ShortCut = 16462
+        OnClick = menuNewClick
       end
       object N2: TMenuItem
         Caption = '-'
       end
-      object O1: TMenuItem
+      object menuOpen: TMenuItem
         Caption = #25171#24320'(&O)...'
-        OnClick = O1Click
+        ShortCut = 16463
+        OnClick = menuOpenClick
       end
-      object D1: TMenuItem
+      object menuSave: TMenuItem
         Caption = #20445#23384'(&S)...'
-        OnClick = D1Click
+        ShortCut = 16467
+        OnClick = menuSaveClick
       end
       object N3: TMenuItem
         Caption = '-'
       end
-      object X1: TMenuItem
+      object menuExit: TMenuItem
         Caption = #36864#20986'(&X)'
-        OnClick = X1Click
+        OnClick = menuExitClick
       end
     end
-    object E1: TMenuItem
+    object menuEdit: TMenuItem
       Caption = #32534#36753'(&E)'
+      object menuSelectAll: TMenuItem
+        Caption = #20840#36873'(&A)'
+        ShortCut = 16449
+        OnClick = menuSelectAllClick
+      end
     end
-    object H1: TMenuItem
+    object menuHelp: TMenuItem
       Caption = #24110#21161'(&H)'
+      object menuAbout: TMenuItem
+        Caption = #20851#20110'(&A) ...'
+        ShortCut = 112
+        OnClick = menuAboutClick
+      end
     end
   end
 end

@@ -4,34 +4,10 @@ Coordinates=0,0,75,33
 [mmo1]
 Coordinates=0,0,53,51
 
-[F1]
-Coordinates=72,1,75,33
-
-[E1]
-Coordinates=72,1,75,33
-
-[H1]
-Coordinates=72,1,75,33
-
-[N1]
-Coordinates=72,1,75,33
-
 [N2]
 Coordinates=72,1,75,33
 
-[O1]
-Coordinates=72,1,75,33
-
-[D1]
-Coordinates=72,1,75,33
-
 [N3]
-Coordinates=72,1,75,33
-
-[X1]
-Coordinates=72,1,75,33
-
-[(TMenuItem)]
 Coordinates=72,1,75,33
 
 [mmMain]
@@ -39,4 +15,37 @@ Coordinates=72,1,70,33
 
 [dlgOpen1]
 Coordinates=0,0,77,33
+
+[menuExit]
+Coordinates=72,1,75,33
+
+[menuSave]
+Coordinates=72,1,75,33
+
+[menuOpen]
+Coordinates=72,1,75,33
+
+[menuNew]
+Coordinates=72,1,75,33
+
+[menuFile]
+Coordinates=72,1,75,33
+
+[menuEdit]
+Coordinates=72,1,75,33
+
+[menuHelp]
+Coordinates=72,1,75,33
+
+[statMain]
+Coordinates=72,1,56,51
+
+[menuAbout]
+Coordinates=72,1,75,33
+
+[menuSelectAll]
+Coordinates=147,1,75,33
+
+[(TMenuItem)]
+Coordinates=147,1,75,33
 
