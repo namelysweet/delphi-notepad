@@ -1,12 +1,6 @@
 program NotePad;
 
-uses
-  Vcl.Forms,
-  FormMain in 'FormMain.pas' {frmMain};
-
-{$R *.res}
-
-{ Reduce EXE size by disabling as much of RTTI as possible (delphi 2009/2010) }
+{ Reduce EXE size by disabling as much of RTTI as possible Delphi}
 
 {$IF CompilerVersion >= 21.0}
 
@@ -15,6 +9,12 @@ uses
 {$RTTI EXPLICIT METHODS([]) PROPERTIES([]) FIELDS([])}
 
 {$IFEND}
+
+uses
+  Vcl.Forms,
+  FormMain in 'FormMain.pas' {frmMain};
+
+{$R *.res}
 
 begin
   Application.Initialize;

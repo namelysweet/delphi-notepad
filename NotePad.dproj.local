@@ -3,8 +3,8 @@
 	<Transactions>
     <Transaction>2018/12/19 17:49:02.000.562,=C:\Users\ThinkPad\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
     <Transaction>2018/12/24 13:00:59.000.361,=C:\Users\ThinkPad\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
-    <Transaction>2018/12/24 13:02:17.000.239,C:\Users\ThinkPad\Desktop\NotePad\FormMain.pas=C:\Users\ThinkPad\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
-    <Transaction>2018/12/24 13:02:17.000.239,C:\Users\ThinkPad\Desktop\NotePad\FormMain.dfm=C:\Users\ThinkPad\Documents\Embarcadero\Studio\Projects\Unit2.dfm</Transaction>
-    <Transaction>2018/12/24 13:02:21.000.617,C:\Users\ThinkPad\Desktop\NotePad\NotePad.dproj=C:\Users\ThinkPad\Documents\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
+    <Transaction>2018/12/24 13:02:17.000.239,C:\Users\ThinkPad\Documents\Embarcadero\Studio\Projects\Unit2.dfm=C:\Users\ThinkPad\Desktop\NotePad\FormMain.dfm</Transaction>
+    <Transaction>2018/12/24 13:02:17.000.239,C:\Users\ThinkPad\Documents\Embarcadero\Studio\Projects\Unit2.pas=C:\Users\ThinkPad\Desktop\NotePad\FormMain.pas</Transaction>
+    <Transaction>2018/12/24 13:02:21.000.617,C:\Users\ThinkPad\Documents\Embarcadero\Studio\Projects\Project2.dproj=C:\Users\ThinkPad\Desktop\NotePad\NotePad.dproj</Transaction>
   </Transactions>
 </BorlandProject>

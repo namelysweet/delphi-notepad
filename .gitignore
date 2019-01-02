@@ -1,1 +1,3 @@
 /__history
+/Win32/Debug/*.exe
+/Win32/Release/*.exe
